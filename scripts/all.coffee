@@ -1,9 +1,12 @@
 
 https = require 'https'
 
-room_id = process.env.HUBOT_GROUPME_ROOM_ID
-bot_id = process.env.HUBOT_GROUPME_BOT_ID
-token = process.env.HUBOT_GROUPME_TOKEN
+room_id = process.env.27158035
+bot_id = process.env.3c96be06cccd61483e124da352
+token = process.env.108979e11bff0be86755171920
+
+
+
 
 module.exports = (robot) ->
   blacklist = []
